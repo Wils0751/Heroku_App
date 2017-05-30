@@ -1,2 +1,2 @@
-web: bokeh serve —-show fourier_animated.py
+web: bokeh serve fourier_animated.py
 			      
