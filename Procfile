@@ -1,2 +1,9 @@
-web: bokeh serve --log-level=debug --port=$PORT --host=https://limitless-plateau-17501.herokuapp.com/ --use-xheaders fourier_animated.py
+web: bokeh serve \
+    --log-level=debug \
+    --num-procs=0 \
+    --port=$PORT \
+    --show \
+    --host=https://limitless-plateau-17501.herokuapp.com \
+    --host=* --address=0.0.0.0 \
+    --use-xheaders fourier_animated.py
 			      
