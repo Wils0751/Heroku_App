@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+web: bokeh serve --port=$PORT --host= https://limitless-plateau-17501.herokuapp.com --host=*      --address=0.0.0.0 --use-xheaders fourier_animated.py
